@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*整体*/
+
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: '微软雅黑';
+	margin: 0 auto;
+	background: #fff;
+	min-width: 1000px;
+}
+
+ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	border: 0;
+}
+
+dl,
+dt,
+dd {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+a,
+a:focus {
+	text-decoration: none;
+	color: #000;
+	outline: none;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+table {
+	/*border-collapse:collapse;*/
+	border-spacing: 0;
+}
+
+cite {
+	font-style: normal;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+html,
+body {
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+
+.main {
+	width: 96%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.el-cascader-menus {
+	white-space: nowrap;
+	background: #fff;
+	position: absolute;
+	margin: 5px 0;
+	border: 1px solid #d1dbe5;
+	border-radius: 2px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+  }
+  .el-cascader-menu {
+	display: inline-block;
+	vertical-align: top;
+	height: 204px;
+	overflow: auto;
+	border-right: solid 1px #d1dbe5;
+	background-color: #fff;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 6px 0;
+	min-width: 160px;
+  }
+  .el-cascader-menu:last-child {
+	border-right: 0;
+  }
+  .el-cascader-menu__item {
+	font-size: 14px;
+	padding: 8px 30px 8px 10px;
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #48576a;
+	height: 36px;
+	line-height: 1.5;
+	box-sizing: border-box;
+	cursor: pointer;
+  }
+  .el-cascader-menu__item:hover {
+	background-color: #e4e8f1;
+  }
+  .el-cascader-menu__item.selected {
+	color: #fff;
+	background-color: #20a0ff;
+  }
+  .el-cascader-menu__item.selected.hover {
+	background-color: #1c8de0;
+  }
+  .el-cascader-menu__item.is-active {
+	color: #fff;
+	background-color: #20a0ff;
+  }
+  .el-cascader-menu__item.is-active:hover {
+	background-color: #1c8de0;
+  }
+  .el-cascader-menu__item.is-disabled {
+	color: #bfcbd9;
+	background-color: #fff;
+	cursor: not-allowed;
+  }
+  .el-cascader-menu__item.is-disabled:hover {
+	background-color: #fff;
+  }
+  .el-cascader-menu__item__keyword {
+	font-weight: 700;
+  }
+  .el-cascader-menu__item--extensible:after {
+	font-family: element-icons;
+	content: "\e606";
+	font-size: 12px;
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	color: #bfcbd9;
+	position: absolute;
+	right: 10px;
+	margin-top: 1px;
+  }
+  .el-cascader-menu--flexible {
+	height: auto;
+	max-height: 180px;
+	overflow: auto;
+  }
+  .el-cascader-menu--flexible .el-cascader-menu__item {
+	overflow: visible;
+  }
